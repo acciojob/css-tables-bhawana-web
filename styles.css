@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+/* Table styling */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+/* Styling for table headers (th) */
+th, td {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+/* Background color for odd rows */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Background color for even rows */
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
