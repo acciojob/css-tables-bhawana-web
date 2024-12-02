@@ -1,25 +1,34 @@
 /*  your css code here. If applicable */
 /* Table styling */
+/* General table styling */
 table {
-    width: 60%;
-    border-collapse: collapse;
-    margin: 20px auto;
+    width: 100%;
+    border-collapse: collapse; /* Collapses the borders between cells */
+    margin: 20px 0;
 }
 
 /* Styling for table headers (th) */
-th, td {
+th {
+    text-align: left;
+    background-color: #f4f4f4;
+    padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+/* Styling for table cells (td) */
+td {
     padding: 0.5rem;
-    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 /* Background color for odd rows */
-tbody tr:nth-child(odd) {
+tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
 
 /* Background color for even rows */
-tbody tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #ffffff;
 }
